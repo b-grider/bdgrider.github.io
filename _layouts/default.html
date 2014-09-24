@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <br>
+  <br>
+ 
+  <body>
+ <section id="siteBanner" class="site-banner1">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+  <h1 style="color:white; font-family:'Lobster';text-align:center;font-size:6.0vw;float:left;"> {{page.title}}{{post.title}} </h1>
+</section>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <section id="siteBannerBottom" class="site-banner1">
+ <p style="font-family:'Lobster';font-size:1.5em;color:white;text-align:center;">© 2014 Ben Grider, all Rights Reserved.</p>
+  <!--<h1 style="color:white; font-family:'Lobster';text-align:center;font-size:6.0vw;float:left;"> {{page.title}}{{post.title}} </h1>-->
+</section>
+
+
+  </body>
+
+</html>

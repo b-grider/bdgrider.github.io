@@ -1,0 +1,535 @@
+/**
+ * Site header
+ */
+
+.site-header {
+   /* border-top: 5px solid $grey-color-dark;*/
+   /* border-bottom: 1px solid $grey-color-light;*/
+    background: black;
+   /* color: inherit;*/
+   /* opacity:0.6;*/
+    /*color:inherit;*/
+    height: 66px;
+    width:100%;
+    position:fixed;
+    top:0;
+   left:0;
+
+    // Positioning context for the mobile navigation icon
+    /*position: relative;*/
+}
+
+   /* @-moz-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }*/
+   /* @-webkit-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }*/
+   /* @-o-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }*/
+    /*@-ms-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }*/
+    /*@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }*/
+
+.site-banner1 {
+
+       /* -moz-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -webkit-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -o-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -ms-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* animation: reveal-banner 1s 0.25s ease-in-out;*/
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;   /*#645862*/
+       background-image: url("/home/assets/1.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner2 {
+
+       /* -moz-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -webkit-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -o-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* -ms-animation: reveal-banner 1s 0.25s ease-in-out;*/
+       /* animation: reveal-banner 1s 0.25s ease-in-out;*/
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/water.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner3 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+       -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+       -o-animation: reveal-banner 1s 0.25s ease-in-out;
+       -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+       animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/seaoats2.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner4 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+       -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/seaoats.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner5 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/XDF.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner6 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/coquina.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner7 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/sand.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner8 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/dock.jpg");
+       background-position: bottom center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner9 {
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/nightDock.jpg");
+       background-position: center center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+.site-banner10{
+
+        -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+        -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+        -o-animation: reveal-banner 1s 0.25s ease-in-out;
+        -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+        animation: reveal-banner 1s 0.25s ease-in-out;
+
+       -moz-animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+       -o-animation-fill-mode: forwards;
+       -ms-animation-fill-mode: forwards;
+       animation-fill-mode: forwards;
+
+       background-attachment: /*scroll, scroll, scroll, */fixed;
+       background-color: white;
+       background-image: url("/home/assets/tail.jpg");
+       background-position: top center;/*bottom left, bottom right, top left, top center*/
+       background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+       background-size: cover;      /*100%, auto, cover*/
+       /* width:100%;*/
+        height:100%;
+      /* color: white;*/
+      /*  cursor: default;*/
+       padding: 12vw /*0*/
+}
+
+
+
+.site-title {
+    font-size: 30px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+
+    &,
+    &:visited {
+        color: $grey-color-light;    /*$grey-color-dark*/
+        font-family: 'Open Sans Condensed'
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+    font-family: Open Sans Condensed;
+    text-transform:uppercase;
+    letter-spacing:0.3vw;
+    font-weight:bold;
+
+    .menu-icon {
+        display: none;
+       
+    }
+
+    .page-link {
+        color: orange;  /*$text-color*/
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 30px;
+            /*margin-right: 20px;*/
+        }
+    }
+
+    .page-link:hover {
+        color:white;
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+           /* padding-bottom: 5px;*/
+        }
+
+        .page-link {
+            display: block;
+           /* padding: 5px 10px;*/
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
