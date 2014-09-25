@@ -4,7 +4,7 @@ email: griderbenjamin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A place where I kill time fooling around with web technology and pretending I know stuff about programming.
 baseurl: "/home" # the subpath of your site, e.g. /blog/
-url: "http://bengrider.com" # the base hostname & protocol for your site
+url: "http://bdgrider.github.io" # the base hostname & protocol for your site
 github_username: bdgrider
 
 # Build settings
