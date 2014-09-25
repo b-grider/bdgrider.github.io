@@ -4,8 +4,8 @@ $(document).ready(function() {
 
 	var randomPhotoNumber = (Math.round(Math.random()*5) + 1);
 	var newPhoto = randomPhotoNumber + ".jpg";
-	var path2= 'url("/assets/1.jpg")';
-	//var path = $('#siteBanner').css('background-image');
+	//var path2= 'url("/assets/1.jpg")';
+	var path2 = $('#siteBanner').css('background-image');
 	path=path2.replace("1.jpg", newPhoto);
 
 	console.log(path2);
