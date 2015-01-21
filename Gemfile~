@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 require 'json'
 require 'open-uri'
-#require 'rouge'
+require 'rouge'
 require 'rbconfig'
 
 #gem 'pygments.rb', '0.5.0'
